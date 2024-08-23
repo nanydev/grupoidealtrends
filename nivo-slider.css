@@ -10,14 +10,17 @@
 /* The Nivo Slider styles */
 .nivoSlider {
 	position:relative;
-	width:100%;
-	height:auto;
+  width:894px;
+  height:290px;
 	overflow: hidden;
+
+	left:8rem;
+
 }
 .nivoSlider img {
 	position:absolute;
-	top:0px;
-	left:0px;
+	top: 0rem;
+	left:0rem;
 	max-width: none;
 }
 .nivo-main-image {
@@ -28,7 +31,7 @@
 
 /* If an image is wrapped in a link */
 .nivoSlider a.nivo-imageLink {
-	position:absolute;
+	position:center;
 	top:0px;
 	left:0px;
 	width:100%;
